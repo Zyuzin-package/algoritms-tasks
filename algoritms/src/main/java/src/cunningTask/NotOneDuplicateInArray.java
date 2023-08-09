@@ -10,9 +10,12 @@ public class NotOneDuplicateInArray {
         List<Integer> list = new ArrayList<>();
         for (int i = 1; i <= 100; i++) {
             list.add(i);
+           if(i==5){
+               list.remove(i-1);
+           }
         }
         list.add(78);
-
+        System.out.println(list);
         Map<Integer, Integer> map = new HashMap<>();
 
         for (Integer i : list) {

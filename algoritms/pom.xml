@@ -26,6 +26,13 @@
             <artifactId>spring-boot-maven-plugin</artifactId>
             <version>3.0.5</version>
         </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+
 
     </dependencies>
     <build>
@@ -58,7 +65,7 @@
                                 <addClasspath>true</addClasspath>
                                 <classpathPrefix>libs/</classpathPrefix>
                                 <mainClass>
-                                   src.FizzBuzz
+                                    src.algoritmTasks.FizzBuzz
                                 </mainClass>
                             </manifest>
                         </archive>
