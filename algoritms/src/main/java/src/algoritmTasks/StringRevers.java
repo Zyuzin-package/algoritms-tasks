@@ -9,7 +9,7 @@ public class StringRevers {
         char[] chars = str.toCharArray();
         char[] resultChars = new char[chars.length];
         int temp = 0;
-        for (int i =  chars.length-1; i >=0; i--) {
+        for (int i = chars.length - 1; i >= 0; i--) {
             resultChars[temp] = chars[i];
             temp++;
         }
